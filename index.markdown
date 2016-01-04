@@ -55,7 +55,7 @@ A single integration of the vertical acceleration will give approximate velocity
 
 
 
-Peak velocity:  406 m/s (Mach 1.2)
+The peak velocity during the motor burn was 406 m/s (Mach 1.2).
 
 
 ## Altitude
@@ -74,7 +74,7 @@ Hopfully we can fix this with filters that take into acconut several sensors, li
 
 
 
-Peak altitude:  5.56 km AGL (6.95 km MSL)
+According to the IMU the apogee was 5.56 kilometers. And then we "landed" 2,525 meters underground
 
 
 
