@@ -2,8 +2,8 @@ NOTEBOOKS=$(wildcard *.ipynb)
 NBLATEX=$(NOTEBOOKS:.ipynb=.tex)
 NBMARKDOWN=$(NOTEBOOKS:.ipynb=.md)
 
-PDF=introduction.markdown IMU.md
-MARKDOWN=introduction.markdown IMU.md
+PDF=introduction.markdown IMU.md GPS.md
+MARKDOWN=introduction.markdown IMU.md GPS.md
 
 LATEXARGS = --standalone \
             --table-of-contents \

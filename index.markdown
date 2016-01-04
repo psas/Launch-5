@@ -78,3 +78,31 @@ According to the IMU the apogee was 5.56 kilometers. And then we "landed" 2,525 
 
 
 
+
+
+
+# GPS
+
+The rocket has a Conexant Jupiter GPS, a 12-channel OEM receiver based on the Zodiac chipset. It was set to send 1 Hz binary data.
+
+## Altitude
+
+We can compare the GPS reported altitude to the IMU integration.
+
+
+
+
+
+
+![](data/launch-overview/GPS_files/GPS_2_0.png)
+
+
+There does appear to be a time lag for some reason between the two.
+
+
+
+The maximum GPS altitude recorded was 5.53 kilomters. (IMU: 5.56 km).
+Though there was some forcing in the IMU calibration to match this numer.
+
+
+
