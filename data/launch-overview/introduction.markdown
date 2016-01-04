@@ -1,4 +1,4 @@
-# Introdution
+# Introduction
 
 Launch 5 was our "successful failure" launch. We had a great team, and a really well prepared rocket. We had a smooth countdown and launch. This was our first flight with 802.11 WiFi live telemetry from a linux flight computer. We got tons of data. The only thing to go wrong was the parachutes not opening!
 
