@@ -1,2 +1,6 @@
 *.parsed
 *.csv
+*.pdf
+*.md
+*_files/
+.ipynb_checkpoints/
