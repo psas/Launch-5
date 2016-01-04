@@ -3,6 +3,7 @@ NBLATEX=$(NOTEBOOKS:.ipynb=.tex)
 NBMARKDOWN=$(NOTEBOOKS:.ipynb=.md)
 
 PDF=introduction.markdown IMU.md
+MARKDOWN=introduction.markdown IMU.md
 
 LATEXARGS = --standalone \
             --table-of-contents \
@@ -16,6 +17,9 @@ all: PSAS-launch-5-overview.pdf
 PSAS-launch-5-overview.pdf: $(PDF)
 	pandoc $(LATEXARGS) $(PDF) -f markdown -o PSAS-launch-5-overview.pdf
 
+PSAS-launch-5-overview.md: $(MARKDOWN)
+	cat $(MARKDOWN) > PSAS-launch-5-overview.md
+
 %.tex: %.ipynb
 	ipython nbconvert --execute --config formatting/ipython_convert.py --to=latex $^
 
@@ -24,4 +28,6 @@ PSAS-launch-5-overview.pdf: $(PDF)
 
 clean:
 	rm -f $(NBMARKDOWN)
+	rm -rf *_files
 	rm -f PSAS-launch-5-overview.pdf
+	rm -f PSAS-launch-5-overview.md
