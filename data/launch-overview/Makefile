@@ -19,6 +19,7 @@ PSAS-launch-5-overview.pdf: $(PDF)
 
 PSAS-launch-5-overview.md: $(MARKDOWN)
 	cat $(MARKDOWN) > PSAS-launch-5-overview.md
+	sed -i 's/.pdf)/.png)/g' PSAS-launch-5-overview.md
 
 %.tex: %.ipynb
 	ipython nbconvert --execute --config formatting/ipython_convert.py --to=latex $^

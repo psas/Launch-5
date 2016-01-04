@@ -1,3 +1,6 @@
 [submodule "data/data-parser"]
 	path = data/data-parser
 	url = https://github.com/psas/data-analysis.git
+[submodule "_layouts"]
+	path = _layouts
+	url = https://github.com/psas/jekyll-layouts.git

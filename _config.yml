@@ -1,0 +1,49 @@
+title:        PSAS
+tagline:      Rockets
+description:  Rockets
+canonical:    http://psas.pdx.edu
+url:          ''
+
+# Owner/author information
+owner:
+  name:           Portland State Aerpospace Society
+  avatar:         avatar.png
+  bio:            "Rockets"
+  email:          info@psas.pdx.edu
+  twitter:        pdxaerospace
+  github:         psas
+  youtube:        PSASRockets
+  location:       "Portland, Ore"
+
+exclude: ['Makefile',
+    'README.markdown',
+    'data/data-parser',
+    'data/Makefile',
+    'data/README.markdown',
+    'data/launch-overview/doc-format',
+    'data/launch-overview/Makefile',
+]
+
+timezone:    America/Los_Angeles
+future:      true
+highlighter: pygments
+markdown:    kramdown
+kramdown:
+  toc_levels: "1,2"
+
+sass:
+    style: :compressed
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Rockets
+    url: /rockets/
+  - title: Launches
+    url: /launches/
+  - title: Projects
+    url: /projects/
+  - title: Get Involved
+    url: /join/
+  - title: About
+    url: /about/

@@ -2,5 +2,5 @@
 *.csv
 *.pdf
 *.md
-*_files/
+*.pdf
 .ipynb_checkpoints/
