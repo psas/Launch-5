@@ -26,6 +26,7 @@
 {% endblock execute_result %}
 
 {% block stream %}
+{{ output.text }}
 {% endblock stream %}
 
 {% block data_svg %}
