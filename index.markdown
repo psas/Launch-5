@@ -64,9 +64,7 @@ before we hit the ground is -235 m/s (Mach -0.7).
 
 ## Altitude
 
-Further integrating the velocity numbers should get us altitude. Here we really see the IMU drift. After 70 seconds our guess of altitude is almost 2 kilometers off! (the rocket landed on the ground, not 2000 meters underground).
-
-Hopfully we can fix this with filters that take into acconut several sensors, like pressure and GPS fixes, in order to de-bias our IMU drift.
+Further integrating the velocity numbers should get us altitude. Hopfully we can fix this with filters that take into acconut several sensors, like pressure and GPS fixes, in order to de-bias our IMU drift.
 
 
 
